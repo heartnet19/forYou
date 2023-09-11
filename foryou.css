@@ -1,0 +1,94 @@
+body{
+    background-image: linear-gradient(black,white);
+    height: 200rem;
+}
+.fy {
+    border:1px;
+    border-radius: 5px;
+    color: rgb(14, 13, 13);
+    margin: auto;
+    width: 40rem;
+    height: 29rem;
+    margin-top: 6rem;
+    background-image: url('02.jpg');
+    background-size: cover;
+    background-clip: content-box;
+    background-position: bottom;
+}
+html {
+    height: 100%;
+}
+.word {
+    color: white;
+    font: 700 normal 2rem 'tahoma';
+    margin-left: 1rem;
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+.about { 
+    display: inline-block;
+    margin-top: 2rem;
+}
+a:active {
+    color: rgb(37, 35, 35);
+}
+.about a {
+    border: 1px;
+    margin-left: 32rem;
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.425);
+    color: white;
+    height: 1rem;
+    width: 30rem;
+    text-decoration: none;
+    font-family: Georgia;
+}
+.second {
+    margin-top: 20rem;
+    display: inline-block;
+}
+.one {
+    margin-left: 2rem;
+    display: inline-flex;
+    border:1px;
+    border-radius: 5px;
+    height: 32rem;
+    width: 23rem;
+}
+.two, .three, .four, .five, .six, .seven, .eight{
+    margin-left: 2rem;
+    display: inline-flex;
+    border:1px;
+    border-radius: 5px;
+    height: 32rem;
+    width: 23rem; 
+}
+h3 {
+    width: 50rem;
+    height: 9rem;
+    margin-left: 25rem;
+    text-align: center;
+    font-family: tahoma;
+    color: rgba(255, 255, 255, 0.651);
+}
+p {
+    margin-left: 43rem;
+    font-size: small;
+}
+.vid1, .vid2{
+    margin-left: 16rem;
+    display: inline-flex;
+    border:1px ;
+    border-radius: 5px;
+    height: 32rem;
+    width: 27rem;
+    background-color: gray;
+    margin-top: 5rem;
+}
+.h1 {
+    text-align: center;
+    margin-top: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+span {
+    font-style: italic;
+}
